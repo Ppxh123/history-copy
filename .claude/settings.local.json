@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(pkill -f \"electron\")",
+      "Bash(pkill -f \"vite\")",
+      "Bash(node -e ' *)",
+      "Bash(npx tsc *)",
+      "Bash(netstat -ano)",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -I{} taskkill //F //PID {})",
+      "Bash(pkill -f \"concurrently\")",
+      "Bash(curl -s -o /dev/null -w \"port: %{http_code}\" http://localhost:5173)",
+      "Bash(mkdir -p \"d:\\\\GitHub\\\\item\\\\历史粘贴\\\\src\\\\hooks\" \"d:\\\\GitHub\\\\item\\\\历史粘贴\\\\src\\\\components\")",
+      "Bash(tasklist)"
+    ],
+    "additionalDirectories": [
+      "d:\\GitHub\\item\\历史粘贴\\src"
+    ]
+  }
+}
